@@ -22,6 +22,7 @@ export default function Home() {
   //2. axios instance에서 /api를 통해서 호출할 때,
   // - hydrates error를 해결하기 위해 useEffect 사용
   const [posts, setPosts] = useState<Post[]>([]);
+  console.log('styling');
 
   useEffect(() => {
     async function getData() {
