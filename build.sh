@@ -1,5 +1,5 @@
 #!/bin/sh
 cd ../
 mkdir output
-cp -R ./[team-repo-name]/* ./output
-cp -R ./output ./[team-repo-name]/
+cp -R ./vercel_nextjs_test/* ./output
+cp -R ./output ./vercel_nextjs_test/
