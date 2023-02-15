@@ -10,10 +10,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body>
         <nav>
-          <Link href="/">Homepage</Link>
+          <Link href='/'>Homepage</Link>
         </nav>
         <Recoil>
           <ReactQueryWrapper>{children}</ReactQueryWrapper>
